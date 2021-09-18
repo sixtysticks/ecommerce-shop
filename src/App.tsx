@@ -1,11 +1,12 @@
 import React from "react";
+import HomePage from "./pages/homepage.component";
+
 import "./App.css";
-import HomePage from "./components/homepage/homepage.component";
 
 const App = () => {
     return (
         <div>
-            <HomePage title="Hello World" />
+            <HomePage />
         </div>
     );
 };
